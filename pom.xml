@@ -53,6 +53,13 @@
             <version>6.1.0</version>
             <scope>provided</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.5</version>
+        </dependency>
     </dependencies>
     <build>
         <finalName>spring-mvc-app1</finalName>
